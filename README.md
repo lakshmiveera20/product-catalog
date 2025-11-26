@@ -62,4 +62,24 @@ Cart Page
 ![image alt](https://github.com/lakshmiveera20/product-catalog/blob/main/addcart.png)
 
 
+Assumptions
+
+No backend or API is used; all data is mock JSON inside script.js
+Cart data is not stored after page refresh
+Each category contains four sample products
+The app is designed as a simple frontend prototype, not a full e-commerce system
+
+
+ extra Features Implemented
+
+Time-based greeting message (Good Morning, Good Afternoon, Good Evening)
+Responsive grid layout for categories and products
+Attractive UI with colors, cards, and hover effects
+Search functionality for filtering products
+Add to cart, remove from cart, and total price calculation
+Online product images for realistic display
+
+web page url :  https://simpleecommercefrontend.netlify.app/
+
+
 
