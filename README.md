@@ -59,7 +59,7 @@ Product List Page
 ![image alt](https://github.com/lakshmiveera20/product-catalog/blob/main/prod4.png)
 
 Cart Page
-
+![image alt](https://github.com/lakshmiveera20/product-catalog/blob/main/addcart.png)
 
 
 
