@@ -50,14 +50,16 @@ Option 2: Run with VS Code Live Server
 
 Category Page 
 ![image alt](https://github.com/lakshmiveera20/product-catalog/blob/main/homepage.png)
-![image alt](
 
 
 Product List Page
-(Add screenshot here)
+![image alt](https://github.com/lakshmiveera20/product-catalog/blob/main/prod1.png)
+![image alt](https://github.com/lakshmiveera20/product-catalog/blob/main/prod2.png)
+![image alt](https://github.com/lakshmiveera20/product-catalog/blob/main/prod3.png)
+![image alt](https://github.com/lakshmiveera20/product-catalog/blob/main/prod4.png)
 
 Cart Page
-(Add screenshot here)
+
 
 
 
