@@ -61,6 +61,13 @@ Product List Page
 Cart Page
 ![image alt](https://github.com/lakshmiveera20/product-catalog/blob/main/addcart.png)
 
+wrokflow screen recording :-
+
+
+https://github.com/user-attachments/assets/6d4edc1b-40da-4bc8-8f22-fbc082316567
+
+
+
 
 Assumptions
 
