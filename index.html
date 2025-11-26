@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Online Shopping Store</title>
+  <link rel="stylesheet" href="style.css" />
+  <style>
+    /* keeps your background from earlier; you can remove if you prefer */
+    body {
+      background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS_Lf4QutfXPAC5C5K6kEsG7mb9L_PBSPfvnw&s');
+      background-size: cover;
+      background-attachment: fixed;
+    }
+  </style>
+</head>
+<body>
+
+  <header class="topbar">
+    <div class="left-header">
+      <h1 class="brand">🛍️ Online Shopping Store</h1>
+      <div id="greeting" class="greeting">Hello!</div>
+    </div>
+
+    <div class="right-header">
+      <button id="openHomeBtn" class="small-btn" onclick="showHome()">Home</button>
+      <button id="toggleCartBtn" class="small-btn" onclick="toggleCart()">View Cart (<span id="cartCount">0</span>)</button>
+    </div>
+  </header>
+
+  <!-- MAIN: categories -->
+  <main>
+    <section id="home" class="page">
+      <h2 class="section-title">Shop by Category</h2>
+      <div class="category-container">
+        <div class="category-card" onclick="openCategory('beauty')">
+          <img src="background/beauty.jpg" alt="Beauty">
+          <h3>Beauty</h3>
+        </div>
+
+        <div class="category-card" onclick="openCategory('kids')">
+          <img src="background/kids.jpg" alt="Kids">
+          <h3>Kids Wear</h3>
+        </div>
+
+        <div class="category-card" onclick="openCategory('women')">
+          <img src="background/saree.jpg" alt="Women">
+          <h3>Women Wear</h3>
+        </div>
+
+        <div class="category-card" onclick="openCategory('men')">
+          <img src="background/men.jpg" alt="Men">
+          <h3>Men Wear</h3>
+        </div>
+      </div>
+    </section>
+
+    <!-- PRODUCTS page -->
+    <section id="products" class="page hidden">
+      <div class="products-header">
+        <button class="back-btn" onclick="goBack()">⬅ Back</button>
+        <h2 id="categoryTitle" class="section-title"></h2>
+        <div class="controls">
+          <input id="searchInput" type="text" placeholder="Search products..." onkeyup="searchProducts()" />
+          <select id="sortSelect" onchange="sortProducts()">
+            <option value="default">Sort: Default</option>
+            <option value="low">Price: Low → High</option>
+            <option value="high">Price: High → Low</option>
+          </select>
+        </div>
+      </div>
+
+      <div id="productGrid" class="product-grid"></div>
+    </section>
+  </main>
+
+  <!-- CART panel (right side) -->
+  <aside id="cartPanel" class="cart-panel hidden">
+    <div class="cart-head">
+      <h3>Your Cart</h3>
+      <button class="small-btn" onclick="clearCart()">Clear Cart</button>
+    </div>
+
+    <div id="cartItems" class="cart-items"></div>
+
+    <div class="cart-footer">
+      <div class="total-row"><span>Total:</span><span id="cartTotal">₹0</span></div>
+      <button class="checkout-btn" onclick="checkout()">Checkout</button>
+    </div>
+  </aside>
+
+  <footer class="footer">
+    <small>Built with ❤️ — Mock JSON demo</small>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
