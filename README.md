@@ -48,8 +48,10 @@ Option 2: Run with VS Code Live Server
 
  3. Screenshots
 
-Category Page
-(Add screenshot here)
+Category Page 
+![image alt](https://github.com/lakshmiveera20/product-catalog/blob/main/homepage.png)
+![image alt](
+
 
 Product List Page
 (Add screenshot here)
